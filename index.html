@@ -1,0 +1,60 @@
+<!-- This tells the browser that this is an HTML file -->
+<!DOCTYPE html>
+<!-- All of our HTML goes inside here -->
+<html>
+    <!-- This is the Head element, which contains metadata -->
+    <head>
+        <!-- This is the title of the website (This is what shows up on the tab when we have the site open). -->
+        <title>My First Website</title> 
+        <!-- This piece of metadata list the author of the page -->
+        <meta name="Author" content="Daniel Moffitt">
+        <!-- This piece of metadata description of our website (used by search engines). -->
+        <meta name="Decscription" content="This is my first website!">
+        <!-- This is how we specify what characters our site can display. There are certain characters that aren't available in certain charsets. -->
+        <meta charset="UTF-8">
+        <!-- This sets the viewport for our site (Which is the area that the browser is displaying on so that the width is equal to the device width). -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <!-- This is the Body element, which contains the main content of the site. -->
+    <body>
+        <!-- This is an h1 element. Headers go from h1 to h6, getting smaller as you go higher. -->
+        <h1 class="center">My First Website</h1> 
+        <!-- CMD + / will comment selected text out
+        <h2>This is my Subheader.</h2>
+        <h3>This is even smaller.</h3>
+        <h6>This is very small.</h6> -->
+        <!-- This is a paragraph element. They are used to display text. -->
+        <p class="center">This is my first website. Below, you'll find lists of three of my hobbies and my top 5 favorite.</p>
+        <div id="my_list">
+            <div id="list_1">
+                <h2 class="center">Hobbies</h2>
+                <!-- This is an Unordered list(<ul>) with Listed items(<li>). -->
+                <ul style="list-style-type: square;">
+                    <li>Board games
+                        <!-- This is an example of a list item with other elements inside of it. -->
+                        <details>Every now and then a bunch of my friends get together and play.  We have a tournament and usually play for a real scale version of Thanos' Guantlet.</details>
+                    </li>
+                    <li>Lacrosse
+                        <details>I grew up around the sport and has turned into a passion of mine.</details>
+                    </li>
+                    <li>Listening to Music
+                        <details>I usually listen to Youtube shuffle of "good vibes" music and epic music like Really Slow Motion.</details>
+                    </li>
+                </ul>
+            </div>
+            <div id="list_2">
+                <h2 class="center">Top 5 Favorite Board games</h2>
+                <!-- This is an Ordered list(<ol>) with Listed items(<li>). Ordered list can display things in multiple ordering types: numbers,letters, and roman  numerals. -->
+                <ol type="I">
+                    <!-- <em> tags make the text Italic -->
+                    <li>Legendary</li>
+                    <li>Eldrich Horror</li>
+                    <li>Clank!</li>
+                    <li>Secret Hitler</li>
+                    <li>Rum n' Bones</li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>

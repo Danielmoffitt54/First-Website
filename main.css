@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana;
+    background-color: lightgrey;
+}
+
+.center {
+    text-align: center;
+}
+
+h1, h2 {
+    background-color: cyan;
+}
+
+h1 {
+    font-size: 36pt;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+h2 {
+    padding: 10px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+p {
+    margin-top: -10px;
+}
+
+#my_list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+
+#list_1, #list_2 {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-collapse: collapse;
+    background-color: white;
+}
